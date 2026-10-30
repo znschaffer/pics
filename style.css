@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+  color: darkslategray;
+  font-family: serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  color: darkslategray;
+}
+
+.image-outer {
+  display: grid;
+  height: 100%;
+  margin-bottom: 1em;
+}
+
+.image-inner {
+  max-width: 100%;
+  max-height: 90vh;
+  margin: auto;
+}
